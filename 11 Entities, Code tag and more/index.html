@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entities, Code tag and more</title>
+  </head>
+  <body>
+    This is a &lt;paragraph&gt; with a <code>code tag</code> and an entity
+    &copy;.
+    <pre>
+        # Factorial Calculation in Ruby
+
+def factorial(n)
+  if n < 0
+    return "Factorial is not defined for negative numbers!"
+  elsif n == 0
+    return 1
+  else
+    (1..n).inject(:*)
+  end
+end
+
+# Get user input
+puts "Enter a number to calculate its factorial:"
+number = gets.chomp.to_i
+
+# Calculate and display the result
+result = factorial(number)
+puts "The factorial of #{number} is #{result}"
+
+    </pre>
+
+    <blockquote>
+      "The only way to learn a new programming language is by writing programs
+      in it." - Dennis Ritchie"
+    </blockquote>
+
+    <q>
+      "The only way to learn a new programming language is by writing programs
+      in it." - Dennis Ritchie"
+    </q>
+
+    <code> # Factorial Calculation in Ruby </code>
+
+    <canvas>
+        <p>Your browser does not support the canvas element.</p>
+    </canvas>
+  </body>
+</html>
