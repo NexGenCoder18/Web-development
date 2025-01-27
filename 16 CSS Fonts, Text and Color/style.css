@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montez&display=swap");
+
+p {
+  font-family: "Edu AU VIC WA NT Pre", serif;
+  font-size: 20px;
+  /* font-style:italic;
+        font-weight: 500;  */
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  /* text-decoration-style: dotted; */
+  text-decoration-thickness: 7px;
+  /* text-indent: 45px; */
+}
+.lorem {
+  border: 2px solid red;
+  width: 145px;
+  word-break: break-all;
+  /* text-overflow: ellipsis;
+            overflow: hidden; */
+}
